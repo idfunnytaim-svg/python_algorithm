@@ -1,0 +1,6 @@
+CREATE DATABASE test;
+CREATE TABLE product (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(30),
+    price INT
+);
